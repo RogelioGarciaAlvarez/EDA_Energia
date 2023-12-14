@@ -1,5 +1,10 @@
 # EDA
-Análisis de Datos Exploratorio sobre la demanda eléctrica, generación por tipo, precios y condiciones climáticas en España 
+Análisis de Datos Exploratorio sobre la demanda eléctrica, generación por tipo, precios y condiciones climáticas en España entre 2015 y 2018
+
+Objetivos principales:
+1. Análisis del mix energético
+2. Análisis de la influencia de factores climáticos en la generación de energía renovable
+3. Análisis de la variación del precio de la energía según el método de generación
 
 La información ha sido obtenida de *kaggle*, concretamente se puede acceder a los datasets al sitio través del siguiente [enlace](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/data)
 
@@ -10,7 +15,6 @@ El estudio se realiza sobre dos datasets ubicados en el directorio <data>:
 Breve descripción de las columnas de cada dataset:
 
 1. energy_dataset.csv
-
 * time: fecha y hora localizada en CET
 * generation biomass: energía generada con biomasa en MW
 * generation fossil brown coal/lignite: energía generada con X en MW
@@ -42,7 +46,6 @@ Breve descripción de las columnas de cada dataset:
 * price actual: precio en EUR/MWh
 
 2. wather_features.csv
-
 * dt_iso: fecha y hora localizada en CET
 * city_name: nombre de la ciudad
 * temp: temperatura en K
@@ -51,5 +54,5 @@ Breve descripción de las columnas de cada dataset:
 * pressure: presión atmosférica en hPa
 * humidity: porcentaje de humedad
 * wind_speed: velocidad del viento en m/s
-* wind_deg: dirección del viento en grados (0$$^{o}$$: Norte, 90$$^{o}$$: Este, 180$$^{o}$$: Sur, 270$$^{o}$$: Oeste)
+* wind_deg: dirección del viento en grados (0: Norte, 90: Este, 180: Sur, 270: Oeste)
 * rain_1h: precipitación de lluvia acumulada en la hora anterior
