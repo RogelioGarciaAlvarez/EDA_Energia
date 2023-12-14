@@ -51,5 +51,5 @@ Breve descripción de las columnas de cada dataset:
 * pressure: presión atmosférica en hPa
 * humidity: porcentaje de humedad
 * wind_speed: velocidad del viento en m/s
-* wind_deg: dirección del viento en grados (0$^{o}$: Norte, 90$^{o}$: Este, 180$^{o}$: Sur, 270$^{o}$: Oeste)
+* wind_deg: dirección del viento en grados (0$$^{o}$$: Norte, 90$$^{o}$$: Este, 180$$^{o}$$: Sur, 270$$^{o}$$: Oeste)
 * rain_1h: precipitación de lluvia acumulada en la hora anterior
