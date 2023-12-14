@@ -17,7 +17,7 @@ Los datos climatológicos se obtuvieron del sitio [**OpenWeather**](https://open
 
 
 ## Datos
-El estudio se realiza sobre dos datasets ubicados en el directorio <data> del repositorio:
+El estudio se realiza sobre dos datasets ubicados en el directorio *data* del repositorio:
 * energy_dataset.csv (35.064 filas y 29 columnas)
 * weather_features.csv (178.396 filas y 17 columnas)
 
