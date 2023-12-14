@@ -10,7 +10,9 @@ Análisis de Datos Exploratorio sobre la generación de energía eléctrica por 
 La información ha sido obtenida de *kaggle*, concretamente se puede acceder a los datasets del sitio través del siguiente [enlace](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather/data)
 
 Los datos de generación de energía se obtuvieron del portal de transparencia de [**ENTSOE**](https://transparency.entsoe.eu/dashboard/show) (Red Europea de Gestores de Redes de Transporte de Electricidad)
+
 Los precios de la energía se obtuvieron del sitio [**esios red eléctrica**](https://www.esios.ree.es/en/market-and-prices)
+
 Los datos climatológicos se obtuvieron del sitio [**OpenWeather**](https://openweathermap.org/)
 
 
