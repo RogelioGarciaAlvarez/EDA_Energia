@@ -65,3 +65,10 @@ Breve descripción de las columnas de cada dataset:
 * wind_speed: velocidad del viento en m/s
 * wind_deg: dirección del viento en grados (0: Norte, 90: Este, 180: Sur, 270: Oeste)
 * rain_1h: precipitación de lluvia acumulada en la hora anterior en mm
+* rain_3h: precipitación de lluvia acumulada en las tres horas anteriores en mm
+* snow_3h: precipitación de nieve acumulada en las tres horas anteriores en mm
+* clouds_all: porcentaje de cobertura de las nubes
+* weather_id: código para describir el tiempo
+* weather_main: breve descripción del tiempo
+* weather_description: larga descripción del tiempo
+* weather_icon: código para el icono del tiempo del sitio web
