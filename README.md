@@ -57,9 +57,9 @@ Breve descripción de las columnas de cada dataset:
 2. wather_features.csv
 * dt_iso: fecha y hora localizada en CET
 * city_name: nombre de la ciudad
-* temp: temperatura en K
-* temp_min: temperatura mínima en K
-* temp_max: temperatura máxima en K
+* temp: temperatura media registrada en la hora anterior en K
+* temp_min: temperatura mínima registrada en la hora anterior en K
+* temp_max: temperatura máxima registrada en la hora anterior en K
 * pressure: presión atmosférica en hPa
 * humidity: porcentaje de humedad
 * wind_speed: velocidad del viento en m/s
