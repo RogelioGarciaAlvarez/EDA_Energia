@@ -3,7 +3,7 @@ Análisis de Datos Exploratorio sobre la generación de energía eléctrica por 
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la influencia de factores climáticos en la generación de energía renovable
+2. Análisis de la influencia de factores climáticos en la capacidad de generación de energía renovable
 3. Análisis de la variación del precio de la energía según el método de generación
 
 ## Fuentes
@@ -25,32 +25,32 @@ Breve descripción de las columnas de cada dataset:
 
 1. energy_dataset.csv
 * time: fecha y hora localizada en CET
-* generation biomass: energía generada con biomasa en MW
-* generation fossil brown coal/lignite: energía generada con lignito en MW
-* generation fossil coal-derived gas: energía generada con gas derivado del carbón en MW
-* generation fossil gas: energía generada con gas en MW
-* generation fossil hard coal: energía generada con antracita en MW
-* generation fossil oil: energía generada con petróleo convencional en MW
-* generation fossil oil shale: energía generada con petróleo (a partir de lutita bituminosa) en MW
-* generation fossil peat: energía generada con turba en MW
-* generation geothermal: energía geotérmica generada en MW
-* generation hydro pumped storage aggregated: energía generada con X en MW
-* generation hydro pumped storage consumption: energía generada por consumo de reserva hídrica bombeada en MW
-* generation hydro run-of-river and poundage: energía generada por escorrentía de rios y lagos generada en MW
-* generation hydro water reservoir: energía generada por reserva hídrica en embalses generada en MW
-* generation marine: energía mareomotriz generada en MW
-* generation nuclear: energía nuclear generada en MW
-* generation other: energía generada con otros medios en MW
-* generation other renewable: energía renovable generada con otros medios en MW
-* generation solar: energía solar generada en MW
-* generation waste: energía generada a partir de residuos en MW
-* generation wind offshore: energía eólica (mar) generada en MW
-* generation wind onshore: energía eólica (tierra firme) generada en MW
-* forecast solar day ahead: previsión para el dia siguiente de energía solar generada en MW
-* forecast wind offshore day ahead: previsión para el dia siguiente de energía eólica (mar) generada en MW
-* forecast wind onshore day ahead: previsión para el dia siguiente de energía eólica (tierra firme) generada en MW
-* total load forecast: prevision de demanda de energía eléctrica
-* total load actual: demanda de energía
+* generation biomass: capacidad de generación de energía con biomasa en MW
+* generation fossil brown coal/lignite: capacidad de generación de energía con lignito en MW
+* generation fossil coal-derived gas: capacidad de generación de energía con gas derivado del carbón en MW
+* generation fossil gas: capacidad de generación de energía con gas en MW
+* generation fossil hard coal: capacidad de generación de energía con antracita en MW
+* generation fossil oil: capacidad de generación de energía con petróleo convencional en MW
+* generation fossil oil shale: capacidad de generación de energía con petróleo (a partir de lutita bituminosa) en MW
+* generation fossil peat: capacidad de generación de energía con turba en MW
+* generation geothermal: capacidad de generación de energía geotérmica en MW
+* generation hydro pumped storage aggregated:
+* generation hydro pumped storage consumption: capacidad de generación de energía por consumo de reserva hídrica bombeada en MW
+* generation hydro run-of-river and poundage: capacidad de generación de energía por escorrentía de rios y lagos generada en MW
+* generation hydro water reservoir: capacidad de generación de energía por reserva hídrica en embalses en MW
+* generation marine: capacidad de generación de energía mareomotriz en MW
+* generation nuclear: capacidad de generación de energía nuclear en MW
+* generation other: capacidad de generación de energía con otros medios en MW
+* generation other renewable: capacidad de generación de energía renovable con otros medios en MW
+* generation solar: capacidad de generación de energía solar en MW
+* generation waste: capacidad de generación de energía a partir de residuos en MW
+* generation wind offshore: capacidad de generación de energía eólica (mar) en MW
+* generation wind onshore: capacidad de generación de energía eólica (tierra firme) en MW
+* forecast solar day ahead: previsión para el dia siguiente de la capacidad de generación de energía solar en MW
+* forecast wind offshore day ahead: previsión para el dia siguiente de la capacidad de generación de energía eólica (mar) en MW
+* forecast wind onshore day ahead: previsión para el dia siguiente de la capacidad de generación de energía eólica (tierra firme) en MW
+* total load forecast: prevision de consumo de energía en MW
+* total load actual: capacidad de consumo de energía en MW
 * price day ahead: previsión para el dia siguiente del precio en EUR/MWh
 * price actual: precio en EUR/MWh
 
