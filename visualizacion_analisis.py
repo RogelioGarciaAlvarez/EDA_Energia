@@ -263,7 +263,7 @@ def categorica_numerica_boxplot(df, cat_col, num_col):
 
 
 
-def plot_grouped_histograms(df, cat_col, num_col, group_size):
+def categorica_numerica_histograma(df, cat_col, num_col, group_size):
     unique_cats = df[cat_col].unique()
     num_cats = len(unique_cats)
 
