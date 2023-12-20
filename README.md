@@ -1,21 +1,25 @@
 # EDA
-Análisis de Datos Exploratorio sobre la generación de energía eléctrica por tipo, condiciones climáticas y precios en España
+Análisis de Datos Exploratorio sobre la generación de energía eléctrica por tipo, precios y condiciones metereológicas en España
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la influencia de factores climáticos en la generación de energía renovable
-3. Análisis de la variación del precio de la energía según el método de generación
+2. Análisis de la variación del precio de la energía
+3. Análisis de la influencia de factores climáticos en la generación de energía renovable
 
 ## Fuentes
 Los datos de generación de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
 
-Los datos climatológicos se han obtenido del sitio web de [**X**]()
+Los datos de demanda de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/demanda)
 
-Los precios de la energía se han obtenido del sitio web de [**X**]()
+Los precios de la energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/mercados)
+
+Los datos climatológicos se han obtenido del sitio web de [**X**]()
 
 ## Datos
 El estudio se realiza sobre X datasets ubicados en el directorio *data* del repositorio:
 * estructura_generacion.csv (4.717 filas y 17 columnas)
+* precios.csv (119 filas y 2 columnas)
+* demanda.csv (119 filas y 2 columnas)
 
 Breve descripción de las columnas de cada dataset:
 
@@ -37,3 +41,12 @@ Breve descripción de las columnas de cada dataset:
 * Residuos no renovables: energía diaria generada con otra fuentes no renovables en GWh
 * Residuos renovables: energía diaria generada con residuos renovables en GWh
 * Generacion total: energía diaria total generada
+
+2. precios.csv
+* Fecha: fecha de generación de la energía
+* Precio: precio de la energía en MWh
+
+3. demanda.csv
+* Fecha: fecha de generación de la energía
+* Demanda: demanda diaria de energía en GWh
+
