@@ -1,25 +1,22 @@
 # EDA
-Análisis de Datos Exploratorio sobre la generación de energía eléctrica por tipo, precios y condiciones metereológicas en España
+Análisis de Datos Exploratorio sobre la generación de energía eléctrica y condiciones metereológicas en España
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la variación del precio de la energía
-3. Análisis de la influencia de factores climáticos en la generación de energía renovable
+2. Análisis de la influencia de factores climáticos en la generación de energía renovable
 
 ## Fuentes
-Los datos de generación de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
+Los datos de generación de energía y potencia instalada se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
 
 Los datos de demanda de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/demanda)
-
-Los precios de la energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/mercados)
 
 Los datos climatológicos se han obtenido del sitio web de [**X**]()
 
 ## Datos
 El estudio se realiza sobre X datasets ubicados en el directorio *data* del repositorio:
-* estructura_generacion.csv (4.717 filas y 17 columnas)
-* precios.csv (119 filas y 2 columnas)
+* estructura_generacion.csv (3.621 filas y 17 columnas)
 * demanda.csv (119 filas y 2 columnas)
+* potencia_renovables.csv (107 filas y 8 columnas)
 
 Breve descripción de las columnas de cada dataset:
 
@@ -40,13 +37,19 @@ Breve descripción de las columnas de cada dataset:
 * Cogeneracion: energía diaria generada con uso de cogeneración en GWh
 * Residuos no renovables: energía diaria generada con otra fuentes no renovables en GWh
 * Residuos renovables: energía diaria generada con residuos renovables en GWh
-* Generacion total: energía diaria total generada
+* Generacion total: energía diaria total generada en GWh
 
-2. precios.csv
-* Fecha: fecha de generación de la energía
-* Precio: precio de la energía en MWh
+2. demanda.csv
+* Fecha: fecha de demanda de la energía
+* Demanda: demanda mensual de energía en GWh
 
-3. demanda.csv
-* Fecha: fecha de generación de la energía
-* Demanda: demanda diaria de energía en GWh
+3. potencia_renovables.csv
+* Fecha: fecha de medición de la potencia instalada
+* Hidráulica: potencia instalada para la generación de energía hidráulica hasta la fecha
+* Eólica: potencia instalada para la generación de energía eólica hasta la fecha
+* Solar fotovoltaica: potencia instalada para la generación de energía solar fotovoltaica hasta la fecha
+* Solar térmica: potencia instalada para la generación de energía solar térmica hasta la fecha
+* Otras renovables: potencia instalada para la generación de energía de otras fuentes renovables hasta la fecha
+* Residuos renovables: potencia instalada para la generación de energía por residuos renovables hasta la fecha
+* Potencia renovable: potencia total instalada para la generación de energía renovable hasta la fecha
 
