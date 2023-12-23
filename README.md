@@ -3,14 +3,14 @@ Análisis de Datos Exploratorio sobre la generación de energía eléctrica y co
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la influencia de factores climáticos en la generación de energía renovable
+2. Análisis de la influencia de factores metereológicos en la generación de energía renovable
 
 ## Fuentes
 Los datos de generación de energía y potencia instalada se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
 
 Los datos de demanda de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/demanda)
 
-Los datos climatológicos se han obtenido del sitio web de [**X**]()
+Los datos metereológicos se han obtenido del sitio web de [**AEMET**](https://www.aemet.es/es/datos_abiertos/AEMET_OpenData)
 
 ## Datos
 El estudio se realiza sobre X datasets ubicados en el directorio *data* del repositorio:
@@ -45,11 +45,11 @@ Breve descripción de las columnas de cada dataset:
 
 3. potencia_renovables.csv
 * Fecha: fecha de medición de la potencia instalada
-* Hidráulica: potencia instalada para la generación de energía hidráulica hasta la fecha
-* Eólica: potencia instalada para la generación de energía eólica hasta la fecha
-* Solar fotovoltaica: potencia instalada para la generación de energía solar fotovoltaica hasta la fecha
-* Solar térmica: potencia instalada para la generación de energía solar térmica hasta la fecha
-* Otras renovables: potencia instalada para la generación de energía de otras fuentes renovables hasta la fecha
-* Residuos renovables: potencia instalada para la generación de energía por residuos renovables hasta la fecha
-* Potencia renovable: potencia total instalada para la generación de energía renovable hasta la fecha
+* Hidráulica: potencia instalada para la generación de energía hidráulica hasta la fecha en MW
+* Eólica: potencia instalada para la generación de energía eólica hasta la fecha en MW
+* Solar fotovoltaica: potencia instalada para la generación de energía solar fotovoltaica hasta la fecha en MW
+* Solar térmica: potencia instalada para la generación de energía solar térmica hasta la fecha en MW
+* Otras renovables: potencia instalada para la generación de energía de otras fuentes renovables hasta la fecha en MW
+* Residuos renovables: potencia instalada para la generación de energía por residuos renovables hasta la fecha en MW
+* Potencia renovable: potencia total instalada para la generación de energía renovable hasta la fecha en MW
 
