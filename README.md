@@ -10,13 +10,14 @@ Los datos de generación de energía y potencia instalada se han obtenido del si
 
 Los datos de demanda de energía se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/demanda)
 
-Los datos metereológicos se han obtenido del sitio web de [**AEMET**](https://www.aemet.es/es/datos_abiertos/AEMET_OpenData)
+Los datos metereológicos se han obtenido a través de *AEMET OpenData API* del sitio web de [**AEMET**](https://opendata.aemet.es/centrodedescargas/inicio)
 
 ## Datos
-El estudio se realiza sobre X datasets ubicados en el directorio *data* del repositorio:
+El estudio se realiza sobre 4 datasets ubicados en el directorio *data* del repositorio:
 * estructura_generacion.csv (3.621 filas y 17 columnas)
 * demanda.csv (119 filas y 2 columnas)
 * potencia_renovables.csv (107 filas y 8 columnas)
+* datos_metereologicos.csv (29978 filas y 9 columnas)
 
 Breve descripción de las columnas de cada dataset:
 
@@ -53,3 +54,13 @@ Breve descripción de las columnas de cada dataset:
 * Residuos renovables: potencia instalada para la generación de energía por residuos renovables hasta la fecha en MW
 * Potencia renovable: potencia total instalada para la generación de energía renovable hasta la fecha en MW
 
+4. datos_metereologicos.csv:
+* fecha: fecha de medición
+* indicativo: código único de la estación metereológica
+* nombre: nombre de la estación metereológica
+* provincia: provincia donde se sitúa la estación metereológica
+* prec: precipitación diaria en mm
+* velmedia: velocidad media diaria del viento en m/s
+* sol: insolación diaria en horas
+* longitud: coordenadas de la longitud de la estación metereológica en GMS (grados, minutos, segundos)
+* latitud: coordenadas de la latitud de la estación metereológica en GMS (grados, minutos, segundos)
