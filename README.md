@@ -1,20 +1,20 @@
 # EDA
-Análisis de Datos Exploratorio sobre la generación de energía eléctrica y condiciones metereológicas en España
+Análisis de Datos Exploratorio sobre la generación de energía eléctrica y condiciones meteorológicas en España
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la influencia de factores metereológicos en la generación de energía renovable
+2. Análisis de la influencia de factores meteorológicos en la generación de energía renovable
 
 ## Fuentes
 Los datos de generación de energía y potencia instalada se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
 
-Los datos metereológicos se han obtenido a través de *AEMET OpenData API* del sitio web de [**AEMET**](https://opendata.aemet.es/centrodedescargas/inicio)
+Los datos meteorológicos se han obtenido a través de *AEMET OpenData API* del sitio web de [**AEMET**](https://opendata.aemet.es/centrodedescargas/inicio)
 
 ## Datos
 El estudio se realiza sobre 3 datasets ubicados en el directorio *data* del repositorio:
 1. estructura_generacion.csv (3.621 filas y 17 columnas)
 2. potencia_renovables.csv (107 filas y 8 columnas)
-3. datos_metereologicos.csv (29978 filas y 9 columnas)
+3. datos_meteorologicos.csv (29978 filas y 9 columnas)
 
 Breve descripción de las columnas de cada dataset:
 
@@ -47,13 +47,13 @@ Breve descripción de las columnas de cada dataset:
 * Residuos renovables: potencia instalada para la generación de energía por residuos renovables hasta la fecha en MW
 * Potencia renovable: potencia total instalada para la generación de energía renovable hasta la fecha en MW
 
-3. datos_metereologicos.csv:
+3. datos_meteorologicos.csv:
 * fecha: fecha de medición
-* indicativo: código único de la estación metereológica
-* nombre: nombre de la estación metereológica
-* provincia: provincia donde se sitúa la estación metereológica
+* indicativo: código único de la estación meteorológica
+* nombre: nombre de la estación meteorológica
+* provincia: provincia donde se sitúa la estación meteorológica
 * prec: precipitación diaria en mm
 * velmedia: velocidad media diaria del viento en m/s
 * sol: insolación diaria en horas
-* longitud: coordenadas de la longitud de la estación metereológica en GMS (grados, minutos, segundos)
-* latitud: coordenadas de la latitud de la estación metereológica en GMS (grados, minutos, segundos)
+* longitud: coordenadas de la longitud de la estación meteorológica en GMS (grados, minutos, segundos)
+* latitud: coordenadas de la latitud de la estación meteorológica en GMS (grados, minutos, segundos)
