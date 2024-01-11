@@ -1,9 +1,9 @@
 # EDA
-Análisis de Datos Exploratorio sobre la generación de energía eléctrica y condiciones meteorológicas en España
+Análisis de Datos Exploratorio sobre la generación de energía eléctrica y condiciones meteorológicas en España en los últimos 10 años
 
 ## Objetivos
 1. Análisis y evolución del mix energético en España
-2. Análisis de la influencia de factores meteorológicos en la generación de energía renovable
+2. Análisis de la influencia de factores meteorológicos de España en la generación de energía renovable
 
 ## Fuentes
 Los datos de generación de energía y potencia instalada se han obtenido del sitio web de [**red eléctrica**](https://www.ree.es/es/datos/generacion)
